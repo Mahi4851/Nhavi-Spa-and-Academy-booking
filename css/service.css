@@ -1,0 +1,11 @@
+#label{color: lightsalmon; text-align: center; font-size: 70px;
+	font-family: gabriola;font-style: bold;margin-bottom: 30px;margin-top: 30px;}
+
+	body{padding: 0px;margin: 0px;background-image: url("C:/xampp/htdocs/Nhavi/image/service2.jpg"); 
+		background-repeat: no-repeat;width: 100%;background-position: right top;background-size: cover; }
+
+	table,th{ padding: 20px;margin-top: 0px;margin-left: 40px; border: none;
+	 border-radius: 50px; font-size: 40px;  color: black;}
+	 
+		input{padding: 10px;border-radius: 50px;
+		 background-color: mintcream; color: black;width: 80%;font-size: 20px;	font-family: sans-serif; }

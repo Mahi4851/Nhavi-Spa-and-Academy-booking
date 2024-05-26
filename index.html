@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="my.js"></script>
+
+	</*link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\Nhavi\css\index.css"*/>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<style type="text/css">
+	*{margin: 0px;padding: 0px;box-sizing: border-box;}
+#logo{width: 100%;min-height: 100px;background-color: white;  color: black;  font-family: Lucida Calligraphy; 
+	letter-spacing: 5px; word-spacing: 5px;font-size: 50px;line-height: 50px; }
+#logo img{border-radius: 100px; height:150px; width: 150px; margin: 0px; margin-top: 10px;}
+header{width: 100%;min-height: 500px;}
+nav{width: 100%;min-height: 30px; }
+
+.menu-bar{text-align: center;background-color:grey;font-size: 20px;margin-left: 0px;margin-right: 0px; border-radius: 10px; }
+	.menu-bar ul{display: inline-flex;list-style: none;color: white;}
+	.menu-bar ul li{width: 160px;margin: 15px;padding: 0px;}
+	.menu-bar ul li a{text-decoration: none;color: white;}
+	.active,.menu-bar ul li:hover{background-color:plum;border-radius:4px;}	
+	.sub-menu{display: none;}
+	.menu-bar ul li:hover .sub-menu{display: block;position: absolute;background-color:grey;
+		                           margin-top:15px;margin-left:15px;}
+	.menu-bar ul li:hover .sub-menu ul{display: block;margin:10px;}
+	.menu-bar ul li:hover .sub-menu ul li{width:180px;padding:5px;border-bottom:2px dotted white;
+		                                background:transparent;border-radius:10px;text-align:left;}
+    .menu-bar ul li:hover .sub-menu ul li:last-child{border-bottom:none;}
+    .menu-bar ul li:hover .sub-menu ul li a:hover{color:orange;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#styles{width: 100%;min-height: 1500px;background-color: lightcyan;  padding-top: 100px;}
+#styles .l1b1{width: 30%;min-height: 300px;background-color: orange;float: left; margin-left:2.5%; }*/
+/*#styles .l1b2{width: 30%;min-height: 300px;background-color: lightgrey; float: left;  margin-left:2.5%;}
+#styles .l1b3{width: 30%;min-height: 300px;background-color: green;float: right;margin-right:2.5%;}
+
+#styles .l2b1{width: 30%;min-height: 300px;background-color: pink;float: left; margin-left:2.5%; margin-top:100px;margin-bottom:100px; }
+#styles .l2b2{width: 30%;min-height: 300px;background-color: blueviolet; float: left;  margin-left:2.5%;margin-top:100px;}
+#styles .l2b3{width: 30%;min-height: 300px;background-color: blanchedalmond;float: right;margin-right:2.5%;margin-top:100px;}
+#main .s{width: 50%;min-height: 500px;background-color: yellow;float: left;}
+#main .c{width: 50%;min-height: 500px;background-color: orangered;float: right;}*/
+footer{width: 100%;min-height: 700px;background-color: lightcyan; }
+header{background-image: url("admin/image/img1.jpg"); width: 100%; height: 500px;
+ background-repeat: no-repeat;background-attachment:scroll; background-size: cover; font-size: 80px;
+  color: whitesmoke; padding-top: 100px;font-family: Lucida Handwriting;padding-left: 40px;}
+
+  .au{text-align: center; font-size: 60px; margin-top: 70px; color: green;}
+  #about{color:darkcyan;  margin-top: 50px; margin-bottom: 100px; margin-left: 40px; margin-right: 30px; font-size: 20px; box-sizing: content-box; line-height: 30px; word-spacing: 0.5px;}
+  #about b{color: red;}
+
+  .book th a{background-color: lightseagreen; border: 1px solid red; padding: 20px; font-size: 20px; border-radius: 50px; padding-left: 30px; padding-right: 30px; color: whitesmoke; text-decoration: none;}
+  .book{margin-bottom: 200px;}
+
+
+
+
+
+
+
+
+
+	.appo{padding-top: 0px; padding-right: 60px;margin-right: 50px;margin-bottom: 80px;}
+
+	.appo th{color: lightseagreen; font-size: 30px; padding: 20px;}
+
+	.appo input{padding: 10px;border-radius: 50px; background-color: #EAECEE;
+	 color: black;width: 120%;font-size: 20px;	font-family: sans-serif;}
+	 
+	 #label{color: lightslategrey;font-weight: bold; text-align: center; font-size: 70px;font-family: gabriola;
+		font-style: bold; word-spacing: 5px;letter-spacing: 5px;margin-right: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sp1{ font-size: 50px; color: darkgoldenrod; background-color: lightgoldenrodyellow;border-radius: 50px;margin-left: 180px; margin-right: 180px;}
+.service{margin: 50px;padding: 30px; font-size: 20px; color: rebeccapurple;}
+.service img{border-radius: 30px;}
+
+
+
+.course{margin: 50px;padding: 30px; font-size: 20px; color: rebeccapurple;}
+.course img{border-radius: 30px; }
+
+.sp1{ font-size: 50px; color: darkgoldenrod; background-color: lightgoldenrodyellow;border-radius: 50px;margin-left: 180px; margin-right: 180px;}
+
+
+
+
+
+
+#footer{background-color: #292424; color: whitesmoke; font-size: 20px;letter-spacing: 0.7px;}
+.foot{width: 100%;}
+	.foot td{text-align: center;padding-top: 40px; text-decoration: none;}
+	.foot li{ list-style-type: none;padding: 20px; }
+	.foot a{text-decoration: ; font-weight: bolder; color: whitesmoke;}
+	.foot th{color: white; font-size: 30px;text-decoration: underline; font-family: vardhana;	}
+
+
+
+.my{color: whitesmoke; padding: 20px;background-color: darkgray; font-size: 20px; text-align: center;}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+	<div id="wrop">
+		<div id="logo">
+			<table width="100%">
+				<tr>
+					<td><img src="admin\image\logo2.png" style="height: 150px; width: 150px;"></th>
+					<td  style="text-align: center; font-size:70px; font-weight: bolder; " ><i>It's your time to Shine!!!</i></th>
+					<td align="center" ><img src="admin\image\logo1.png" align="right" style="height: 150px; width: 200px; margin: 10px;"></th>
+				</tr>
+			</table>
+
+
+
+			
+		<nav><div class="menu-bar">
+
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="serviceinfo.html">Services</a></li>
+	<li><a href="style.html">Styles</a></li>			
+	<li><a href="courseinfo.html">Courses</a></li>	
+	<li><a href="#footer">Contact </a></li>	
+	<li><a href="#appintment">Book Now </a>
+
+		<div class="sub-menu">
+				<ul>
+    		<li><a href="admin\apointment.php"> Appointment</a></li>
+    		<li><a href="admin\enquary.php"> Course</a></li>
+
+    	</ul>
+    </div>
+</li>	
+	</ul>	
+</div></nav>
+	
+
+
+
+		 </div>
+		<header> The <b><i> NHAVI </i></b> <br> Spa & Academy <br> <p style="color: red; font-size: 50px ; font-family: cursive;padding-left: 90px;">Your Personal Stylist!!<p>
+
+		</header>
+
+
+
+		<div class="au"  >About Us
+			<div id="about" name="#about" > 
+
+
+					<span style="margin-left:350px;">At the <b>The Nhavi Spa & Academy,</b> we have confidence in excellence with a heart. We Have made a salon that offers the most noteworthy quality hair benefits in a setting that is more advantageous for the earth,our visitors, and our staff. we convay top-notch proficient hair items intended to gaurantee our visitors put their best self forword, noth in the salon and at home.The hair care items we convey have been cautiously picked put together both respect to both with respect to exicution and eco-affectibility.
+				As a spotless air salon, we offer smelling salt-free shading administration with almost no fragrance properties or substance spread.Giving best service is our first priority.</span ><br><b><span style="margin-left:150px;">The Nhavi Spa & Academy</b> is the ideal place to get a remarkeble haircut from first class, univercially prepared beautician and colorists. Giving best service is our first priority. Our commited group of beauticians, nails, hair and skin specialist accompany innumerable long period of envolvement in the magnificant bussiness.</span><br>
+					<span>Looks has advanced throughout the years; with new methods and styles while continually refreshing its beauticians with the regularly developing pattern in the national and global market.
+
+					 The Nhavi Spa & Academy always endeavors to teach and prepare their beautician about the most recent procedures and styles with cutting-edge innovation,by sending the beautician to different classes and by taking an intreste in different occasions of all kinds.
+					
+						"Our Customers are vital to us, so we constantly train our specialist to guarantee that all medicines are of the most astounding standard and that every customer gets the best consideration"</span> <br>
+					<span style="margin-left:;"><b>The Nhavi Spa & Academy</b> will unable us to give customer the full range of coreective, remedial, and preparing medications with the most expert and classified administration.</span>
+
+			</div>
+		</div>
+
+		<!--div align="center"  class="book">
+		 	<table width="50%" cellspacing="50%" >
+		 		<tr> 
+		 			<th><a href="">Book Now Your Service</a></th>
+				 	<th><a href="">Book Now Your Course     </a></th>
+		 		</tr>
+			</table>  
+		</div-->
+
+
+
+
+
+
+
+<!--div style="background-color:lightcoral;border-radius: 50px;">
+
+<//div style="background-color:rebeccapurple ;border-radius: 100px; margin:50px; margin: 100px;" -->
+
+
+<div name="#ap">
+
+<div style="background-color: #fff7e9; margin-bottom:50px; border-radius: 100px 0px 100px 0px;margin: 200px;margin-top: 10px; border:5px dotted indianred;">
+
+	
+
+
+
+<center><table class="appo" name="#ap">
+	
+		<p id="label">Book Your Appointment</p>
+
+	<form action="apoint.php" method="post" name="frm">
+	<tr>
+		<th></th>
+		<th><input type="hidden" name="Id" placeholder="Enter Appointment ID" readonly value="<?php echo $id; ?>" ></th>
+	</tr>
+	<tr>
+		<th> Date:</th>
+		<th><input type="date" name="Date" placeholder="" required></th>
+	</tr>
+	<tr>
+		<th> Time:</th>
+		<th><input type="time" name="Time" placeholder="Time" required></th>
+	</tr>
+	<tr>
+		<th> Name:</th>
+		<th><input type="text" name="t1" placeholder="Enter Customer Name" required><br><span id="nm"></span></th>
+	</tr>
+	<tr>
+		<th> Address:</th>
+		<th><input type="text" name="Address" placeholder="Enter Customer Address" required onclick="valid()"></th>
+	</tr>
+	<tr>
+		<th> City:</th>
+		<th><input type="text" name="City" placeholder="Enter Customer City" required></th>
+	</tr>
+	<tr>
+		<th> Contact No.:</th>
+		<th><input type="text" name="Cont" placeholder="Enter Customer Contact No." required></th>
+	</tr>
+	<tr>
+		<th> Discription:</th>
+		<th><input type="textarea" name="desc" placeholder="Description" required></th>
+	</tr>
+	
+	<tr>
+		<th></th>
+		<th><input type="reset" name="cancel" value="Cancel"  style="width: 40%; color: black;  margin-left:20px;" >
+
+		<input type="submit" name="submit" value="Submit"  style="width: 40%; color: black;  margin-left:20px;margin-right: 0px;" ></th>
+	</tr>
+	<tr><th></th></tr><tr><th></th></tr>
+	</form>
+
+
+</table>
+
+</center>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+		<div><center><div class="sp1" >Services</div></center>
+			<center><table width="90%" align="center" class="service" cellspacing="70px;" cellpadding="50px;">
+				<tr>
+					<th><img src="admin\image\spa.jpg" width="350px;" height="235px"><br>Hair-Spa </th>
+					<th><img src="admin\image\hairstyle.jpg" width="350px;"><br>Hair-Styles</th>
+					<th><img src="admin\image\beard.jpg" width="350px;"height="230px"><br>Beard Styles</th>
+				</tr>
+
+				<tr>
+					<th><img src="admin\image\coloring2.webp" width="350px"height="235px" ><br>Hair-Coloring</th>
+					<th><img src="admin\image\nailart.jpg" width="350px;"><br>Nail-Art with Manicure & Pedicure</th>
+					<th><img src="admin\image\bleaching.jpg" width="350px" height="230px"><br>Face-Bleaching</th>
+				</tr>
+				<tr>
+					<th><img src="admin\image\facial.jpg" width="350px" height="230px"><br>Facial & Mask</th>
+					<th><img src="admin\image\makeup.jpg" width="350px" height="230px"><br>Make-Up</th>
+					<th><img src="admin\image\waxing.jpg" width="350px" height="230px"><br>Waxing</th>
+				</tr>
+			</table></center>
+ 		</div>
+<div align="center"  class="book">
+		 	<table width="50%" cellspacing="50%" >
+		 		<tr> 
+		 			<th><a href="serviceinfo.html"><strong><i></strong>For Service Details.....</i></strong></a></th>
+				 	
+		 		</tr>
+			</table>  
+		</div>
+
+
+
+
+
+
+<div>
+			<center><table width="90%" align="center" class="course" cellspacing="70px;" cellpadding="50px;"><center><div class="sp1" >Courses</div></center>
+				<tr>
+					<th><img src="admin\image\cosmeto.jpg" width="350px;" height="240px"><br>Cosmetology </th>
+					<th><img src="admin\image\makeupc2.jpg" width="350px;"><br>Make-Up </th>
+					<th><img src="admin\image\nailartc.jpg" width="350px;"><br>Nail-Art  </th>
+				</tr>
+
+				<tr>
+					<th><img src="admin\image\styling.jpg" width="350px" height="230px"><br>Hair-Styling</th>
+					<th><img src="admin\image\m&p.jpg" width="350px;" height="230px"><br> Manicure & Pedicure</th>
+					<th><img src="admin\image\bt.jpg" width="350px" height="230px"><br>Beauty Therapy</th>
+				</tr>
+				<tr>
+					<th><img src="admin\image\massage.jpg" width="350px" height="230px"><br>Massage Therapy</th>
+					<th><img src="admin\image\wax&clean.jpg" width="350px" height="230px"><br>Waxing & Clean-up</th>
+					<th><img src="admin\image\kera.jpg" width="350px" height="230px"><br>Straightening & wella With Keratin  </th>
+					
+				</tr>
+			</table></center>
+ 		</div>
+<div align="center"  class="book">
+		 	<table width="50%" cellspacing="50%" >
+		 		<tr> 
+		 			
+				 	<th ><a href="courseinfo.html"><strong><i></strong>For Course Details ..... </i></strong>  </a></th>
+		 		</tr>
+			</table>  
+		</div>
+
+
+
+
+
+
+
+<div id="footer" >
+	<div >
+		<table  width="100%" class="foot" cellspacing="20px" name="#footer" >
+			<tr>
+				<th>About</th>
+				<th>Contact</th>
+				<th>Address</th>
+				<th><a href="admin\apointment.php">Appointment</a></th>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li><a href="admin\enquary.php">Enquiry</a></li>
+						<li><a href="serviceinfo.html">Service</a></li>
+						<li><a href="courseinfo.html">Course</a></li>
+					</ul>
+				</td>
+				<td><ul>
+						<li><b>E-mail:</b><i>Nhavisa@gmail.com</i></li>
+						<li><b>Mobile:</b><i>1234567890</i></li>
+						<li><b>W/A</b><i>0987654321</i></li>
+					</ul></td>
+				<td><ul>
+						<li><b><i>Datt Nagar, near Bus Stand </i></b></li>
+						<li><b><i>Pimpalner Road,Samode</i></b></li>
+						<li><b><i>Tal-Sakri, Dist-Dhule, Maharashtra</i></b></li>
+					</ul></td>
+				<td><ul>
+						<li><b><i>Time:</i></b></li>
+						<li><b>From:</b><i>09:00AM</i></li>
+						<li><b>To:</b><i>10:00PM</i></li>
+					</ul></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="my">All Rights reserved. The Nhavi Spa & Academy. Designed & Develop By Mahendra M. Yais</div>
+		<!--div id="styles"Mahendra mohan yais>
+			<center><h1 style="padding:20px;margin-top: 0px;padding-top: 0px;">First</h1></center>
+			<div class="l1b1"></div>
+			<div class="l1b2"></div>
+			<div class="l1b3"></div>
+			<center><h1>First</h1></center>
+			<div class="l2b1"></div>
+			<div class="l2b2"></div>
+			<div class="l2b3"></div>
+			<center><h1>First</h1></center>
+			<div class="l3b1"></div>
+			<div class="l3b2"></div>
+			<div class="l3b3"></div>
+		</div>
+		<div id="main">
+			<div class="s">services</div>
+			<div class="c">courses</div>
+		</div>
+		<footer>footer</footer>
+	</div-->
+
+</body>
+</html>

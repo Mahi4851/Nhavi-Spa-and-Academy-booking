@@ -1,0 +1,10 @@
+		#label{color: whitesmoke; text-align: center; font-size: 50px;
+		font-family: gabriola;font-style: bold;}
+		
+		table,th{ padding: 20px;margin: 0px; border: none; border-radius: 20px; font-size: 30px;  color: whitesmoke;}
+
+		input{padding: 10px;border-radius: 50px; background-color: black; color: floralwhite;
+			width: 40%;font-size: 20px;	font-family: sans-serif;}
+			
+		table{background-image: url("C:/xampp/htdocs/Nhavi/image/back1.webp"); 
+			background-repeat: no-repeat; background-size: cover; width: 100%; border-radius: 20px;}

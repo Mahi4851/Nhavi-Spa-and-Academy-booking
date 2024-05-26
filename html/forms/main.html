@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+		
+		*{margin: 0px;padding: 0px;box-sizing:border-box;}
+		
+	.menu-bar{text-align: center;background-color:purple;font-size: 20px;}
+	.menu-bar ul{display: inline-flex;list-style: none;color: white;}
+	.menu-bar ul li{width: 120px;margin: 15px;padding: 10px;}
+	.menu-bar ul li a{text-decoration: none;color: white;}
+	.active,.menu-bar ul li:hover{background-color:plum;border-radius:4px;}	
+	.sub-menu{display: none;}
+	.menu-bar ul li:hover .sub-menu{display: block;position: absolute;background-color:purple;
+		                           margin-top:15px;margin-left:15px;}
+	.menu-bar ul li:hover .sub-menu ul{display: block;margin:10px;}
+	.menu-bar ul li:hover .sub-menu ul li{width:180px;padding:10px;border-bottom:2px dotted white;
+		                                background:transparent;border-radius:10px;text-align:left;}
+    .menu-bar ul li:hover .sub-menu ul li:last-child{border-bottom:none;}
+    .menu-bar ul li:hover .sub-menu ul li a:hover{color:orange;}
+
+	.d1{text-align:center;font-size: 30px;line-height:100px;}
+/*background-image: url(C:/xampp/htdocs/Nhavi/image/mainimg.jpg);*/
+	.img1{ background-color: black;
+		width: 100%; line-height: 190px; background-size: ; text-align: center;color: lightcoral;font-size: 70px;background-repeat:1;font-family:Verdana;}
+	.img1 img{width: 160px;border-radius: 100px;margin-left: 10px;}	
+	.img2{width: 220px;border-radius: 50px;margin-top: 15px;margin-right: 10px;}	
+
+	</style>
+
+
+</head>
+<body>
+
+<div class="img1"><img src="C:\xampp\htdocs\Nhavi\image\logo4.jpg" align="left">The Spa & Academy<img src="C:\xampp\htdocs\Nhavi\image\logo1.png" align="right" class="img2"></div>
+	<div class="menu-bar">
+
+	<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">About Us</a></li>
+
+	<li><a href="">Master</a>
+    <div class="sub-menu">
+    	<ul>
+    		<li><a href="">Customer Entry Form</a></li>
+    		<li><a href="">Employee Entry Form</a></li>
+    		<li><a href="">Course Entry Form</a></li>   		
+    	</ul>
+    </div>
+	</li>
+		<li><a href="">Transaction</a>
+        <div class="sub-menu">
+    	<ul>
+    		<li><a href="">Service Entry Form</a></li> 
+    		<li><a href="">Bill Entry Form</a></li>   		  		
+    	</ul>
+    </div>
+	</li>			
+			<li><a href="">Report</a>
+        <div class="sub-menu">
+    	<ul>
+    		<li><a href="">Customer Report</a></li>
+    		<li><a href="">Employee Report</a></li>
+    		<li><a href="">Course Report</a></li>    		
+    		<li><a href="">Service Report</a></li>
+            <li><a href="">Bill Report</a></li>
+    	</ul>
+
+    </div>
+    <li><a href="">Log Out</a></li>		
+</div>
+
+<div class="d1">About As</div>
+
+
+
+
+
+</body>
+</html>

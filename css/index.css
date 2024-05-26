@@ -1,0 +1,20 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+#logo{width: 100%;min-height: 100px;background-color: black;  color: skyblue;  font-family: Lucida Calligraphy; 
+	letter-spacing: 5px; word-spacing: 5px;font-size: 50px;line-height: 50px; }
+#logo img{border-radius: 100px; height:100px; width: 100px; margin: 0px; margin-top: 10px;}
+header{width: 100%;min-height: 500px;}
+nav{width: 100%;min-height: 30px;background-color: orangered; }
+#styles{width: 100%;min-height: 1500px;background-color: lightcyan;  padding-top: 100px;}
+#styles .l1b1{width: 30%;min-height: 300px;background-color: orange;float: left; margin-left:2.5%; }
+#styles .l1b2{width: 30%;min-height: 300px;background-color: lightgrey; float: left;  margin-left:2.5%;}
+#styles .l1b3{width: 30%;min-height: 300px;background-color: green;float: right;margin-right:2.5%;}
+
+#styles .l2b1{width: 30%;min-height: 300px;background-color: pink;float: left; margin-left:2.5%; margin-top:100px;margin-bottom:100px; }
+#styles .l2b2{width: 30%;min-height: 300px;background-color: blueviolet; float: left;  margin-left:2.5%;margin-top:100px;}
+#styles .l2b3{width: 30%;min-height: 300px;background-color: blanchedalmond;float: right;margin-right:2.5%;margin-top:100px;}
+#main .s{width: 50%;min-height: 500px;background-color: yellow;float: left;}
+#main .c{width: 50%;min-height: 500px;background-color: orangered;float: right;}
+footer{width: 100%;min-height: 700px;background-color: lightcyan; }
+header{background-image: url("C:/xampp/htdocs/Nhavi/image/img1.jpg"); width: 100%; height: 500px;
+ background-repeat: no-repeat;background-attachment:scroll; background-size: cover; font-size: 80px;
+  color: whitesmoke; padding-top: 100px;font-family: Lucida Handwriting;padding-left: 40px;}

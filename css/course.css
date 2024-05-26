@@ -1,0 +1,11 @@
+body{ background-image: url("C:/xampp/htdocs/Nhavi/admin/image/iq2.jpg");background-repeat: no-repeat;background-size: cover;}
+
+	table{margin-top: 0px	;margin-right: 0px;}
+
+	th{padding: 30px;}
+
+	input{padding: 10px;border-radius: 50px; background-color: #EAECEE;
+	 color: black;width: 100%;font-size: 25px;	font-family: sans-serif; border: none; }
+		
+		p{text-align: right; color: #17202A;
+			padding-right: 10px;margin-top: 150px; font-size: 70px; font-family:Gabriola ; font-weight: bolder;}
